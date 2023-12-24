@@ -1,0 +1,77 @@
+
+*
+{
+
+    font-size: 14px;
+    color: rgb(240, 240, 240,);
+}
+
+QWidget,ReposityWidget
+{
+    background: rgb(28, 30, 35);
+    color: rgb(240, 240, 240,);
+}
+
+QToolBar
+{
+    background: rgb(49, 54, 65);
+    min-height: 35px;
+}
+QToolBar QToolButton
+{
+    max-height: 35px;
+    background: rgb(49, 54, 65);
+}
+
+QFrame#CommandFrame, QFrame#InfoFrame, QFrame#DetailFrame, QFrame#statusFrame
+{
+    background: rgb(49, 54, 65);
+}
+QFrame#CommandFrame
+{
+    border-bottom: 1px solid rgb(40, 44, 53);
+}
+
+QPushButton
+{
+    font-size: 12pt;
+    background: rgb(59, 172, 206);
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 4px;
+}
+
+StatusBar QPushButton
+{
+    font-size: 10pt;
+    background: rgb(59, 172, 206);
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 2px;
+}
+
+QTabWidget
+{
+    background: rgb(49, 54, 65);
+}
+
+QTabWidget::pane
+{
+    background: rgb(49, 54, 65);
+    border:1px solid green;
+}
+
+QTabBar
+{
+    background: rgb(40, 44, 53);
+}
+QTabWidget QTabBar::tab
+{
+    font-size: 12px;
+    height:35px;
+    background: rgb(40, 44, 53);
+    color:rgb(180, 180, 180);
+}
+QTabWidget QTabBar::tab:selected
+{
+    background: rgb(49, 54, 65);
+    color:rgb(240, 240, 240);
+}
