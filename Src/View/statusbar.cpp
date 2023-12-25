@@ -1,11 +1,11 @@
 #include "statusbar.h"
 
-
 #include "View/colorbutton.h"
 
 #include <QHBoxLayout>
 
-StatusBar::StatusBar(QWidget *parent) :QFrame(parent)
+StatusBar::StatusBar(QWidget *parent)
+    : QFrame(parent)
 {
     updateContent();
 }
@@ -17,7 +17,7 @@ void StatusBar::updateContent()
     btnUpgrade->setSizePolicy(QSizePolicy::Preferred, QSizePolicy::Expanding);
 
     btnActive = new ColorButton(QColor(51, 54, 63));
-    btnActive->setText("更新失败！");
+    btnActive->setText("有效期剩余10天！");
     btnActive->setSizePolicy(QSizePolicy::Preferred, QSizePolicy::Expanding);
 
     QHBoxLayout *layout = new QHBoxLayout(this);

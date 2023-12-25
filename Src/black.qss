@@ -5,6 +5,21 @@
     font-size: 14px;
     color: rgb(240, 240, 240,);
 }
+/*菜单栏*/
+QMenuBar
+{
+    border: none;
+}
+QMenuBar::item
+{
+    background: rgb(28, 30, 35);
+    color:rgb(180, 180, 180);
+}
+QMenuBar::item:selected
+{
+    background: rgb(49, 54, 65);
+    color:rgb(240, 240, 240);
+}
 
 QWidget,ReposityWidget
 {
@@ -14,6 +29,7 @@ QWidget,ReposityWidget
 
 QToolBar
 {
+border: none;
     background: rgb(49, 54, 65);
     min-height: 35px;
 }
@@ -40,6 +56,11 @@ QPushButton
     border-radius: 4px;
 }
 
+StatusBar
+{
+    border-top: 1px solid rgb(40, 44, 53);
+}
+
 StatusBar QPushButton
 {
     font-size: 10pt;
@@ -50,13 +71,13 @@ StatusBar QPushButton
 
 QTabWidget
 {
-    background: rgb(49, 54, 65);
+
 }
 
 QTabWidget::pane
 {
     background: rgb(49, 54, 65);
-    border:1px solid green;
+
 }
 
 QTabBar
@@ -65,7 +86,7 @@ QTabBar
 }
 QTabWidget QTabBar::tab
 {
-    font-size: 12px;
+    font-size: 16px;
     height:35px;
     background: rgb(40, 44, 53);
     color:rgb(180, 180, 180);
